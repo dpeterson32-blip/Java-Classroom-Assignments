@@ -1,3 +1,5 @@
+//Dustin Peterson
+// pg 29
 // Filename HelloDialog.java
 // Written by: Dustin Peterson
 // Written on: 08/26/2026

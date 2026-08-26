@@ -1,0 +1,10 @@
+//Dustin Peterson
+// pg 56
+public class charDemo {
+    public static void main(String[] args) 
+    {
+        char initial = 'A' ;
+        System.out.println(initial);
+        System.out.print("\t\"abc\\def\bghi\n\njkl") ;
+    }
+}
