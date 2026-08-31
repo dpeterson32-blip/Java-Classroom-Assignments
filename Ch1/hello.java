@@ -1,5 +1,3 @@
-package Ch1;
-
 //Dustin Peterson
 //pg 17
 public class hello{
