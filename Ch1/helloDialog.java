@@ -4,6 +4,8 @@
 // Written by: Dustin Peterson
 // Written on: 08/26/2026
 
+package Ch1;
+
 import javax.swing.JOptionPane;
 
 public class helloDialog {

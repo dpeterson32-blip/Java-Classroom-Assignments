@@ -1,6 +1,8 @@
 //Dustin Peterson
 // pg 62
-public class IntegerDemointeractivewithname {
+import java.util.Scanner;
+
+class IntegerDemoInteractive {
     public static void main(String[] args)
     {
         int anInt;

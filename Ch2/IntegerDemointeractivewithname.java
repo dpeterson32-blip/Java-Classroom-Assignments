@@ -1,5 +1,7 @@
 //Dustin Peterson
 // pg 62
+import java.util.Scanner;
+
 public class IntegerDemointeractivewithname {
     public static void main(String[] args)
     {
