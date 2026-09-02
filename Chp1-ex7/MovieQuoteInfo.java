@@ -1,4 +1,3 @@
-package Chp1-ex7;
 //Dustin Peterson
 // pg 35 08/31/2026
 public class MovieQuoteInfo {
