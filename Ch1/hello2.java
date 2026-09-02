@@ -1,3 +1,5 @@
+package Ch1;
+
 //Dustin Peterson
 // pg 26,27
 
@@ -5,7 +7,7 @@
 // Written by: Dustin Peterson
 // Written on: 08/26/2026
 
-package Ch1;
+
 
 public class hello2{
     /* This class demonstrates the use of the println() method to print the message Hello, World */
