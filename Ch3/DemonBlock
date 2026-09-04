@@ -1,0 +1,15 @@
+//Dustin Peterson
+// pg 102 09/04/2026
+public class DemonBlock {
+    public static void main(String[] args) {
+        System.out.println("Demonstrating block scope");
+        int x = 1111;
+        System.out.println("In first block x is " + x);
+        {
+            int y = 2222;
+            System.out.println("Ins second block x is " + x);
+            System.out.println("In second block y is " + y);
+            
+        }
+    }
+}
