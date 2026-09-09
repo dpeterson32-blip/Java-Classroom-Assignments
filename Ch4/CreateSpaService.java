@@ -1,5 +1,5 @@
 //Dustin Peterson
-//pg. 130 09/09/2026
+//pg. 133 09/09/2026
 import java.util.Scanner;
 
 public class CreateSpaService 
@@ -9,7 +9,7 @@ public class CreateSpaService
         SpaService firstService = new SpaService();
         SpaService secondService = new SpaService();
         firstService = getData(firstService);
-        secondService = getData(secondService);
+   //     secondService = getData(secondService);
         System.out.println("First service details:");
         System.out.println(firstService.getServiceDescription() + " $ " + firstService.getPrice());
         System.out.println("Second service details:");

@@ -1,11 +1,16 @@
 //Dustin Peterson
-//pg. 123 09/09/2026
+//pg. 133 09/09/2026
 
 public class SpaService 
 {
     private String serviceDescription;
     private double price;
-    
+    public SpaService()
+    {
+        serviceDescription = "XXX";
+        price = 0;
+
+    }
     public void setServiceDescription(String service)
     {
         serviceDescription = service;
