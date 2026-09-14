@@ -1,5 +1,5 @@
 //Dustin Peterson
-//pg. 133 09/09/2026
+//pg. 138 09/09/2026
 
 public class SpaService 
 {
@@ -7,8 +7,7 @@ public class SpaService
     private double price;
     public SpaService()
     {
-        serviceDescription = "XXX";
-        price = 0;
+        this("xxx", 0);
 
     }
     public SpaService(String desc, double pr)
