@@ -1,11 +1,11 @@
 //Dustin Peterson
 //pg 177 09/15/2026
 
-public class ShortCircuitTestOr
+public class ShortCircuitTestAnd 
 {
     public static void main(String [] args)
     {
-        if(falseMethod () && trueMethod ())
+        if(trueMethod () && falseMethod ())
             System.out.println("Both are true");
         else
             System.out.println("Both are not true");
