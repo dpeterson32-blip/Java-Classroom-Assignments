@@ -7,7 +7,24 @@ public class TestSandwich {
         Sandwich firstSandwich = new Sandwich();
         firstSandwich = getData(firstSandwich);
         System.out.println("You ordered a: ");
-        System.out.println()
+        System.out.println(firstSandwich.getIngredient() + " on " + firstSandwich.getBreadType() + " and the cost of the sandwich is $" + firstSandwich.getPrice());
         
+    }
+    public static Sandwich getData(Sandwich service){
+        String ingredient;
+        String breadType;
+        double price;
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter the name of the ingredient >> ");
+        ingredient = keyboard.nextLine();
+        System.out.print("Enter the name of the bread type >> ");
+        breadType = keyboard.nextLine();
+        System.out.print("Enter the price of the sandwich >> $ ");
+        price = keyboard.nextDouble();
+        service.setIngredient(ingredient);
+        service.setBreadType(breadType);
+        service.setPrice(price);
+        return service;
+
     }
 }

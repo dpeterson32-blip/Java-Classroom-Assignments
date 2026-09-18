@@ -1,12 +1,14 @@
 {
     "java.project.sourcePaths": [
         "Chp1-ex7",
+        "Ch5",
         "Ch4",
         "Ch3-ex5",
         "Ch3",
         "Ch2-ex8",
         "Ch2",
         "Ch1",
-        "Ch5"
+        "chp4-ex1a and 1b",
+        
     ]
 }

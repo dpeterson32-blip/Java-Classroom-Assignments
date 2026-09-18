@@ -20,5 +20,9 @@ public class Sandwich {
     public double getPrice(){
         return price;
     }
+
+    void setPrice(double price) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
     
 }
