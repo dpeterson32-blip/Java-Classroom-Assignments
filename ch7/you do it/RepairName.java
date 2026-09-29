@@ -18,7 +18,7 @@ public class RepairName
                 if(i == 0)
                     {
                         c = Character.toUpperCase(c);
-                        name = c + name.substring(i, stringLength)
+                        name = c + name.substring(i, stringLength);
                     }
                     else
                         if(name.charAt(i) == ' ')
