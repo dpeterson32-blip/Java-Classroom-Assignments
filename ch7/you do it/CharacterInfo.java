@@ -5,7 +5,7 @@ public class CharacterInfo
 {
     public static void main(String[] args)
     {
-        char aChar = 'C';
+        char aChar = '2';
         System.out.println("The character is " + aChar);
         if(Character.isUpperCase(aChar))
             System.out.println(aChar + " is uppercase");
